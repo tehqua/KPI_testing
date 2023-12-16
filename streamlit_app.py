@@ -1,11 +1,7 @@
 import streamlit as st
 
 st.title("KPI count for Envestor club - only for this project")
-#pic
-image_url = "https://scontent.fhan18-1.fna.fbcdn.net/v/t39.30808-6/359258269_283153884255114_2695095199784864444_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=efb6e6&_nc_eui2=AeHde_g93QyVvc5U6TQS85jAqCJUTcggYveoIlRNyCBi987k2Z8QRmvwQfgP8QowDcWwDFbWIFpW4_l2OPmIxmux&_nc_ohc=UnkR4AcblDcAX9trbIX&_nc_ht=scontent.fhan18-1.fna&oh=00_AfB0znnILIsQaZcuqmLuETUbXxtPTIkkOSq8oDZmTT3_xA&oe=658373BD" 
 
-st.image(image_url, caption='Your Image Caption', use_column_width= 10)
-#
 kpi_for_sale = st.number_input("Enter KPI for team sale", min_value=0.0, max_value=1.0, step=0.01)
 kpi_for_others = st.number_input("Enter KPI for others", min_value=0.0, max_value=1.0, step=0.01)
 target = 327000000
